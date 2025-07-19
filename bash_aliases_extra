@@ -1,0 +1,34 @@
+if (command -v apt >/dev/null); then
+  alias apt-install='sudo apt -y install'
+  alias apt-update='sudo apt -y update'
+  alias apt-upgrade='sudo apt -y upgrade'
+fi
+
+if (command -v docker >/dev/null); then
+  alias dcup='docker compose up -d'
+  alias dcdwn='docker compose down'
+  alias dcps='docker compose ps'
+  alias dclogs='docker compose logs'
+fi
+
+if (command -v ghq >/dev/null -a command -v peco >/dev/null); then
+  alias gp='cd $(ghq list --full-path | peco)'
+fi
+
+if (command -v git >/dev/null); then
+  alias git-push-tags='git push origin --tags'
+fi
+
+if (command -v ssh >/dev/null); then
+  alias sshnc='ssh -o "StrictHostKeyChecking no"'
+  alias scpnc='scp -o "StrictHostKeyChecking no"'
+fi
+
+if (command -v vim >/dev/null); then
+  alias vi='vim'
+fi
+
+if (command -v xclip >/dev/null); then
+  alias pbcopy='xclip -selection c'
+  alias pbpaste='xclip -selection c -o'
+fi

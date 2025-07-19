@@ -1,14 +1,14 @@
 # Bashのエイリアス集
 
-```sh
-mkdir ~/.bash_aliases.d
+`.bashrc`
 
-DIRECTORY=<チェックアウト先ディレクトリー パス>
-for FILE_NAME in xclip ghq vim ssh apt git docker; do ln -fs "${DIRECTORY}/${FILE_NAME}" ~/.bash_aliases.d/$FILE_NAME ; done
+```sh
+. ~/.bash_aliases_extra
 ```
 
-`.bash_aliases`
-
 ```sh
-. ~/.bash_aliases.d/*
+FILE=<チェックアウト先ディレクトリ>/bash_aliases_extra
+ln -fs "${FILE}" ~/.bash_aliases_extra
+
+. ~/.bashrc
 ```
