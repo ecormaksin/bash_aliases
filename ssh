@@ -1,0 +1,2 @@
+alias sshnc='ssh -o "StrictHostKeyChecking no"'
+alias scpnc='scp -o "StrictHostKeyChecking no"'

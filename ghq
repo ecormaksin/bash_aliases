@@ -1,0 +1,1 @@
+alias gp='cd $(ghq list --full-path | peco)'
