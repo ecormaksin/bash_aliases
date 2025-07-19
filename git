@@ -1,1 +1,1 @@
-alias gpt='git push origin --tags'
+alias git-push-tags='git push origin --tags'
