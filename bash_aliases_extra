@@ -6,6 +6,7 @@ alias dcup='docker compose up -d'
 alias dcdwn='docker compose down'
 alias dcps='docker compose ps'
 alias dclogs='docker compose logs'
+alias dcexec='docker compose exec'
 
 alias gp='cd $(ghq list --full-path | peco)'
 
