@@ -3,6 +3,8 @@ alias apt-update='sudo apt -y update'
 alias apt-upgrade='sudo apt -y upgrade'
 
 alias dcup='docker compose up -d'
+alias dcstart='docker compose start'
+alias dcstop='docker compose stop'
 alias dcdwn='docker compose down'
 alias dcps='docker compose ps'
 alias dclogs='docker compose logs'

@@ -1,6 +1,6 @@
 # Bashのエイリアス集
 
-`.bashrc`
+`~/.bashrc`
 
 ```sh
 . ~/.bash_aliases_extra
