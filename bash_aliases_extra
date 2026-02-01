@@ -1,6 +1,7 @@
 alias apt-install='sudo apt -y install'
 alias apt-update='sudo apt -y update'
 alias apt-upgrade='sudo apt -y upgrade'
+alias apt-lg='apt list 2>/dev/null | grep -E'
 
 alias dcup='docker compose up -d'
 alias dcstart='docker compose start'
