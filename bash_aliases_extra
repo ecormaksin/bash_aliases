@@ -26,3 +26,4 @@ alias pbpaste='xclip -selection c -o'
 
 alias grbxt='./gradlew -q build -x test'
 alias grcmp='./gradlew -q compileJava compileTestJava'
+alias grt='./gradlew -q test'
